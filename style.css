@@ -1,0 +1,32 @@
+body ,html {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightcyan;
+}
+
+h1{
+  font-size: 3rem;
+  text-align:center;
+}
+.box{
+  border: 2px solid black;
+  height: 70vh;
+  width: 80vw;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: peachpuff;
+}
